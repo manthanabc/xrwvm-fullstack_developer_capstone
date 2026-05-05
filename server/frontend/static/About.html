@@ -1,68 +1,73 @@
-<html>
-<head>
-  <!-- Link the style sheet here -->
-</head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About Us | AutoHub Dealerships</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+        <div class="container-fluid">
+          <h2 style="padding-right: 5%;">Dealerships</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="card" style="width: 80%; margin: auto; margin-top:5%;">
+        <div class="banner" name="about-header">
+          <img src="/static/car_dealership.jpg" alt="AutoHub showroom" style="width:100%; max-height:300px; object-fit:cover;">
+          <div class="details">
+            AutoHub brings trusted dealerships together in one place. We help drivers compare options, read verified reviews, and book test drives with confidence.
+          </div>
+        </div>
+        <div class="row">
+          <div class="card" style="width: 30%;">
+            <img class="card-img-top" src="/static/person.png" alt="Avery Cole">
+            <div class="card-body">
+              <p class="title">Avery Cole</p>
+              <p>Head of Dealer Success</p>
+              <p class="card-text">Avery partners with dealerships to improve customer experience and service quality across all locations.</p>
+              <p>avery.cole@autohub.com</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 30%;">
+            <img class="card-img-top" src="/static/person.png" alt="Priya Natarajan">
+            <div class="card-body">
+              <p class="title">Priya Natarajan</p>
+              <p>Product Manager</p>
+              <p class="card-text">Priya leads the platform roadmap and ensures our tools make car shopping easier and transparent.</p>
+              <p>priya.natarajan@autohub.com</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 30%;">
+            <img class="card-img-top" src="/static/person.png" alt="Miguel Alvarez">
+            <div class="card-body">
+              <p class="title">Miguel Alvarez</p>
+              <p>Customer Experience Lead</p>
+              <p class="card-text">Miguel oversees support and reviews, helping customers connect with the right dealerships quickly.</p>
+              <p>miguel.alvarez@autohub.com</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
-        </div>
-      </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+  </body>
 </html>
