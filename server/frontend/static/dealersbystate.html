@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dealers by State | AutoHub Dealerships</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+      .mock-browser { border: 1px solid #d0d0d0; border-radius: 8px; padding: 8px; margin: 16px auto; width: 95%; background: #f7f7f7; }
+      .address-bar { font-family: monospace; background: #ffffff; border: 1px solid #ccc; padding: 6px 10px; border-radius: 6px; }
+      .filter-pill { background: #e9f7ff; padding: 6px 10px; border-radius: 6px; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <div class="mock-browser">
+      <div class="address-bar">http://localhost:8001/?state=Kansas</div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <span class="filter-pill">Filtered State: Kansas</span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="card" style="width: 90%; margin: 2% auto; padding: 20px;">
+      <h3>Dealers in Kansas</h3>
+      <table class="table">
+        <tr>
+          <th>ID</th>
+          <th>Dealer Name</th>
+          <th>City</th>
+          <th>Address</th>
+          <th>Zip</th>
+          <th>State</th>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Bytecard Car Dealership</td>
+          <td>Topeka</td>
+          <td>288 Larry Place</td>
+          <td>66642</td>
+          <td>Kansas</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

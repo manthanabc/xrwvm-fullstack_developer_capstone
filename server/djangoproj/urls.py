@@ -28,6 +28,7 @@ urlpatterns = [
     path('mock/admin-login', TemplateView.as_view(template_name="admin_login.html")),
     path('mock/admin-logout', TemplateView.as_view(template_name="admin_logout.html")),
     path('mock/dealers-loggedin', TemplateView.as_view(template_name="get_dealers_loggedin.html")),
+    path('mock/dealers-bystate', TemplateView.as_view(template_name="dealersbystate.html")),
     path('mock/landing', TemplateView.as_view(template_name="landing_page.html")),
     path('mock/dealer-detail', TemplateView.as_view(template_name="dealer_details.html")),
     path('mock/deployed-add-review', TemplateView.as_view(template_name="deployed_add_review.html")),
