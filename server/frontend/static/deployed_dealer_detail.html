@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Deployed Dealer Detail | AutoHub Dealerships</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+      .mock-browser { border: 1px solid #d0d0d0; border-radius: 8px; padding: 8px; margin: 16px auto; width: 95%; background: #f7f7f7; }
+      .address-bar { font-family: monospace; background: #ffffff; border: 1px solid #ccc; padding: 6px 10px; border-radius: 6px; }
+      .review-box { border: 1px solid #ccc; border-radius: 8px; padding: 12px; margin: 10px 0; display: flex; gap: 12px; align-items: center; }
+      .review-icon { width: 40px; height: 40px; }
+      .username-pill { font-weight: bold; color: #333; padding: 6px 10px; background: #e9f7ff; border-radius: 6px; }
+    </style>
+  </head>
+  <body>
+    <div class="mock-browser">
+      <div class="address-bar">https://your-app-name.onrender.com/dealer/15</div>
+    </div>
+
+    <div class="card" style="width: 90%; margin: 2% auto; padding: 20px;">
+      <div style="display:flex; justify-content: space-between; align-items: center;">
+        <h2 style="color: #555;">Tempsoft Car Dealership</h2>
+        <span class="username-pill">demo_user</span>
+      </div>
+      <p>San Antonio, 5057 Pankratz Hill, Zip - 78225, Texas</p>
+      <a class="btn btn-sm btn-primary" href="/postreview/15">Post Review</a>
+      <hr>
+      <h4>Reviews</h4>
+      <div class="review-box">
+        <img src="/static/positive.png" class="review-icon" alt="Positive sentiment">
+        <div>
+          <strong>Positive</strong> - "Total grid-enabled service-desk"
+          <div class="text-muted">Berkly Shepley | Audi A6 2010</div>
+        </div>
+      </div>
+      <div class="review-box">
+        <img src="/static/neutral.png" class="review-icon" alt="Neutral sentiment">
+        <div>
+          <strong>Neutral</strong> - "Mandatory homogeneous groupware"
+          <div class="text-muted">Prudi Minchi | Saturn L-Series 2001</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
