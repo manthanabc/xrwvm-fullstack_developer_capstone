@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Deployed Landing Page | AutoHub Dealerships</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+      .mock-browser { border: 1px solid #d0d0d0; border-radius: 8px; padding: 8px; margin: 16px auto; width: 90%; background: #f7f7f7; }
+      .address-bar { font-family: monospace; background: #ffffff; border: 1px solid #ccc; padding: 6px 10px; border-radius: 6px; }
+    </style>
+  </head>
+  <body>
+    <div class="mock-browser">
+      <div class="address-bar">https://your-app-name.onrender.com/</div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <a class="nav_item" href="/login">Login</a>
+            <a class="nav_item" href="/register">Register</a>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <div style="display: flex; flex-direction: column;">
+      <div class="card" style="width: 60%; margin-top: 50px; align-self: center;">
+        <img src="/static/car_dealership.jpg" class="card-img-top" alt="AutoHub showroom">
+        <div class="banner">
+          <h5>Welcome to AutoHub Dealerships</h5>
+          <a href="/dealer" class="btn" style="background-color: aqua; margin:10px">View Dealerships</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
