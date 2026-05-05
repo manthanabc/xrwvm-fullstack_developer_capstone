@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dealer Details | AutoHub Dealerships</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+      .mock-browser { border: 1px solid #d0d0d0; border-radius: 8px; padding: 8px; margin: 16px auto; width: 95%; background: #f7f7f7; }
+      .address-bar { font-family: monospace; background: #ffffff; border: 1px solid #ccc; padding: 6px 10px; border-radius: 6px; }
+      .review-box { border: 1px solid #ccc; border-radius: 8px; padding: 12px; margin: 10px 0; }
+    </style>
+  </head>
+  <body>
+    <div class="mock-browser">
+      <div class="address-bar">http://localhost:8001/dealer/15</div>
+    </div>
+
+    <div class="card" style="width: 90%; margin: 2% auto; padding: 20px;">
+      <h2 style="color: #555;">Tempsoft Car Dealership</h2>
+      <p>San Antonio, 5057 Pankratz Hill, Zip - 78225, Texas</p>
+      <a class="btn btn-sm btn-primary" href="/postreview/15">Post Review</a>
+      <hr>
+      <h4>Reviews</h4>
+      <div class="review-box">
+        <strong>Positive</strong> - "Total grid-enabled service-desk"
+        <div class="text-muted">Berkly Shepley | Audi A6 2010</div>
+      </div>
+      <div class="review-box">
+        <strong>Neutral</strong> - "Mandatory homogeneous groupware"
+        <div class="text-muted">Prudi Minchi | Saturn L-Series 2001</div>
+      </div>
+    </div>
+  </body>
+</html>

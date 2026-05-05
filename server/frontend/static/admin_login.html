@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admin Login | AutoHub Dealerships</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+      .mock-browser { border: 1px solid #d0d0d0; border-radius: 8px; padding: 8px; margin: 16px auto; width: 90%; background: #f7f7f7; }
+      .address-bar { font-family: monospace; background: #ffffff; border: 1px solid #ccc; padding: 6px 10px; border-radius: 6px; }
+    </style>
+  </head>
+  <body>
+    <div class="mock-browser">
+      <div class="address-bar">http://localhost:8001/admin/</div>
+    </div>
+    <div class="card" style="width: 60%; margin: 4% auto; padding: 20px;">
+      <h3 style="color: #333;">Django Administration</h3>
+      <p>Please enter your credentials to continue.</p>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input class="form-control" type="text" value="root" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input class="form-control" type="password" value="********" />
+        </div>
+        <button class="btn btn-primary" type="button">Log in</button>
+      </form>
+    </div>
+  </body>
+</html>
