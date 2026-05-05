@@ -7,7 +7,8 @@
     <style>
       .mock-browser { border: 1px solid #d0d0d0; border-radius: 8px; padding: 8px; margin: 16px auto; width: 95%; background: #f7f7f7; }
       .address-bar { font-family: monospace; background: #ffffff; border: 1px solid #ccc; padding: 6px 10px; border-radius: 6px; }
-      .review-box { border: 1px solid #ccc; border-radius: 8px; padding: 12px; margin: 10px 0; }
+      .review-box { border: 1px solid #ccc; border-radius: 8px; padding: 12px; margin: 10px 0; display: flex; gap: 12px; align-items: center; }
+      .review-icon { width: 40px; height: 40px; }
     </style>
   </head>
   <body>
@@ -22,12 +23,18 @@
       <hr>
       <h4>Reviews</h4>
       <div class="review-box">
-        <strong>Positive</strong> - "Total grid-enabled service-desk"
-        <div class="text-muted">Berkly Shepley | Audi A6 2010</div>
+        <img src="/static/positive.png" class="review-icon" alt="Positive sentiment">
+        <div>
+          <strong>Positive</strong> - "Total grid-enabled service-desk"
+          <div class="text-muted">Berkly Shepley | Audi A6 2010</div>
+        </div>
       </div>
       <div class="review-box">
-        <strong>Neutral</strong> - "Mandatory homogeneous groupware"
-        <div class="text-muted">Prudi Minchi | Saturn L-Series 2001</div>
+        <img src="/static/neutral.png" class="review-icon" alt="Neutral sentiment">
+        <div>
+          <strong>Neutral</strong> - "Mandatory homogeneous groupware"
+          <div class="text-muted">Prudi Minchi | Saturn L-Series 2001</div>
+        </div>
       </div>
     </div>
   </body>
